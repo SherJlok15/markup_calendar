@@ -22,7 +22,7 @@ html {
       }
     }
   }
-  @for $days from 1 through 31 {
+  @for $days from 28 through 31 {
     @for $i from 1 through $days {
       .calendar-#{$days} {
         div:nth-child(#{$i}) {
